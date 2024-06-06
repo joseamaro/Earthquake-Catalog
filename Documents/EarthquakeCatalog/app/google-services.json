@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848209344088",
+    "project_id": "earthquake-catalog",
+    "storage_bucket": "earthquake-catalog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848209344088:android:77b5c97526b98404503c2d",
+        "android_client_info": {
+          "package_name": "com.pro.earthquakecatalog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGstfgYHG4jBBfYdBQ9eDD0U8LZV1D_MQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
