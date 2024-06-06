@@ -120,7 +120,7 @@ class RegisterViewModel @Inject constructor(
     }
 
     companion object {
-        private const val INVALID_NAME_EMPTY = "El nombre no puede estar vacío"
-        private const val INVALID_LAST_NAME_EMPTY = "El apellido no puedo estar vacío"
+        private const val INVALID_NAME_EMPTY = "The name cannot be empty"
+        private const val INVALID_LAST_NAME_EMPTY = "The last name cannot be empty"
     }
 }

@@ -49,12 +49,12 @@ fun NavigationHost(
             SettingsScreen(onBack = {
                 navHostController.popBackStack()
             }, onLogOut = {
-                onLogOut()
                 navHostController.navigate(NavigationRoute.Login.route) {
                     popUpTo(navHostController.graph.startDestinationId) {
                         inclusive = true
                     }
                 }
+                onLogOut()
             })
         }
         composable(
